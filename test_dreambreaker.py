@@ -170,6 +170,17 @@ class Graveyard(unittest.TestCase):
         s = profile(25)
         self.assertEqual(DB.evaluate(s, refs(s))['borderline'], [])
 
+    def test_shipped_example_gives_a_real_verdict(self):
+        import io, json, contextlib
+        from dreambreaker import main
+        path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'example_input.json')
+        data = json.load(open(path, encoding='utf-8'))
+        self.assertEqual(set(data['scores']), set(K))  # the example must score all 24 dimensions
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            main(['x', path])
+        self.assertIn('KILLED by an evidenced critical weakness', buf.getvalue().splitlines()[0])
+
     def test_readable_report(self):
         s = profile(substitutes=95)
         self.assertIn('Resembles', DB.report('Test', DB.evaluate(s, refs(s))))

@@ -18,11 +18,11 @@ Creado por / Created by: **Kritsia Quiñones — XXSELENEPRXX**
 ### Cómo usarla
 1. Copia la carpeta `dreambreaker` en tus skills de Claude (o pega `SKILL.md` en tu asistente de IA).
 2. Pide: *"Destruye esta idea: …"*.
-3. Opcional, sin IA: `python3 scripts/dreambreaker.py scripts/example_input.json`
+3. Opcional, sin IA: `python3 dreambreaker.py example_input.json`
 
 ### Pruebas
-- `python3 scripts/test_dreambreaker.py`: 35 pruebas.
-- `python3 scripts/backtest.py`: los 20 casos históricos.
+- `python3 test_dreambreaker.py`: 36 pruebas.
+- `python3 backtest.py`: los 20 casos históricos.
 
 **Límite honesto:** DREAMBREAKER es una prueba de estrés pesimista, no un oráculo. En tres rondas de predicciones selladas antes de conocer el resultado detectó el 75% de los fracasos reales, pero el 60% de sus alarmas fueron falsas, y como pronóstico acertó menos que suponer que todo sobrevive. Úsala para encontrar las debilidades de tu idea, no para saber si triunfará. Todo está en `VALIDATION.md`, incluidos los fallos.
 
@@ -39,11 +39,11 @@ Creado por / Created by: **Kritsia Quiñones — XXSELENEPRXX**
 ### How to use
 1. Copy the `dreambreaker` folder into your Claude skills (or paste `SKILL.md` into your AI assistant).
 2. Ask: *"Destroy this idea: …"*.
-3. Optional, without AI: `python3 scripts/dreambreaker.py scripts/example_input.json`
+3. Optional, without AI: `python3 dreambreaker.py example_input.json`
 
 ### Tests
-- `python3 scripts/test_dreambreaker.py`: 35 tests.
-- `python3 scripts/backtest.py`: the 20 historical cases.
+- `python3 test_dreambreaker.py`: 36 tests.
+- `python3 backtest.py`: the 20 historical cases.
 
 **Honest limit:** DREAMBREAKER is a pessimistic stress test, not a forecaster. In three rounds of predictions sealed before the outcomes were known, it flagged 75% of real failures, but 60% of its alarms were false, and as a forecast it did worse than assuming everything survives. Use it to find your idea's weaknesses, not to predict success. Everything, including the failures, is in `VALIDATION.md`.
 

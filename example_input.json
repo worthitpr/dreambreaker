@@ -1,5 +1,16 @@
-{"idea": "AI glasses that translate conversations in real time",
- "scores": {"substitutes": 90, "technology_readiness": 75, "security_privacy": 80, "buyer_payer": 70},
- "evidence": {"substitutes": ["Phone translation apps already do this for free"],
-              "security_privacy": ["Recording third parties raises consent issues"]},
- "fatal_assumptions": 0}
+{
+ "idea": "AI glasses that translate conversations in real time",
+ "scores": {
+  "problem_reality": 35, "frequency_severity": 45, "buyer_payer": 70, "direct_competition": 75,
+  "substitutes": 90, "prior_art": 60, "platform_absorption": 70, "technical_feasibility": 45,
+  "technology_readiness": 75, "security_privacy": 80, "regulatory": 50, "onboarding_friction": 55,
+  "unit_economics": 65, "distribution": 70, "switching_cost": 40, "defensibility": 65,
+  "data_advantage": 50, "ai_commoditization": 70, "timing": 40, "operational_burden": 55,
+  "dependency_fragility": 60, "copyability": 60, "evidence_quality": 50, "market_proof": 70
+ },
+ "evidence": {
+  "substitutes": ["Phone translation apps already translate conversations for free"],
+  "security_privacy": ["Recording third parties in conversation raises consent issues"]
+ },
+ "fatal_assumptions": 0
+}

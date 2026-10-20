@@ -25,7 +25,7 @@ Outcome rules were also fixed in advance. An alarm verdict (kill, critical repai
 
 
 ## 1b. Round 2 pre-registered test / Ronda 2 (2026-10-20)
-Sealed before searching: `ef22be610e53a6d8c32abdb6f6cee1d83d29598cc20ce3d802f59f699d636ee9` (file `validation/round2_predictions.json`; round 1 is `validation/round1_predictions.json`).
+Sealed before searching: `ef22be610e53a6d8c32abdb6f6cee1d83d29598cc20ce3d802f59f699d636ee9` (file `round2_predictions.json`; round 1 is `round1_predictions.json`).
 
 | Product | DREAMBREAKER | Real outcome | Result |
 |---|---|---|---|
@@ -41,7 +41,7 @@ Sealed before searching: `ef22be610e53a6d8c32abdb6f6cee1d83d29598cc20ce3d802f59f
 | Brilliant Labs Halo | CRITICAL REPAIR | No reliable 2026 information | Unresolved |
 
 ## 1c. Round 3: out-of-sample test of a proposed fix / Ronda 3: prueba fuera de muestra de un arreglo propuesto
-Sealed before searching: `20012d9e0e6b08c0effd12aaa1277cce3dffedf2f07c9719c76fc53de1417ac7` (`validation/round3_predictions.json`).
+Sealed before searching: `20012d9e0e6b08c0effd12aaa1277cce3dffedf2f07c9719c76fc53de1417ac7` (`round3_predictions.json`).
 After round 2, a "short-term survival outlook" was designed from a stated principle ("money buys time, reach and losses; it does not buy demand, working technology, trust or legality") and sealed together with the verdicts.
 
 | Product | Verdict | Real outcome | Verdict result |
@@ -93,7 +93,7 @@ Leave-one-out over the 20 graveyard cases:
 Cases were scored knowing the outcome, so this checks coherence, not prediction.
 
 ## 4. Unit tests
-`python3 scripts/test_dreambreaker.py`: 35/35.
+`python3 test_dreambreaker.py`: 36/36.
 
 ## 5. Stress test / Prueba de estrés
 - 20,000 random and hostile inputs: 0 crashes.
