@@ -1,0 +1,295 @@
+{
+ "name": "IDEA GRAVEYARD",
+ "warning": "APPROXIMATE risk profiles assigned retrospectively (knowing the outcome) from widely documented public facts. This is a calibration and comparison set, NOT scientific data or ground truth. Unlisted dimensions = 40 (neutral risk). A valid accuracy benchmark requires BLIND scoring by an evaluator who does not know the outcome. 'year' is the approximate year the venture or the specific product started (founding, announcement or launch).",
+ "default_risk": 40,
+ "cases": [
+  {
+   "id": "juicero",
+   "name": "Juicero",
+   "year": 2016,
+   "outcome": "FAILURE",
+   "summary": "Connected juicer costing hundreds of dollars with proprietary packs.",
+   "cause": "The packs could be squeezed by hand with similar results: the machine was unnecessary.",
+   "risks": {
+    "substitutes": 95,
+    "unit_economics": 85,
+    "problem_reality": 75,
+    "buyer_payer": 70
+   }
+  },
+  {
+   "id": "quibi",
+   "name": "Quibi",
+   "year": 2020,
+   "outcome": "FAILURE",
+   "summary": "Paid premium short-episode video for mobile.",
+   "cause": "Competed with free short video (TikTok, YouTube) and shut down in about six months.",
+   "risks": {
+    "substitutes": 90,
+    "direct_competition": 90,
+    "platform_absorption": 75,
+    "distribution": 70,
+    "timing": 65
+   }
+  },
+  {
+   "id": "theranos",
+   "name": "Theranos",
+   "year": 2003,
+   "outcome": "FAILURE",
+   "summary": "Full blood tests from a single drop.",
+   "cause": "The technology did not work as claimed and evidence was hidden.",
+   "risks": {
+    "technical_feasibility": 95,
+    "technology_readiness": 95,
+    "evidence_quality": 90,
+    "regulatory": 85
+   }
+  },
+  {
+   "id": "webvan",
+   "name": "Webvan",
+   "year": 1999,
+   "outcome": "FAILURE",
+   "summary": "Online grocery delivery with its own warehouses.",
+   "cause": "Built huge infrastructure before proving demand and margins; unsustainable unit economics.",
+   "risks": {
+    "unit_economics": 95,
+    "operational_burden": 90,
+    "timing": 80,
+    "market_proof": 70
+   }
+  },
+  {
+   "id": "petscom",
+   "name": "Pets.com",
+   "year": 1998,
+   "outcome": "FAILURE",
+   "summary": "Online pet supply store.",
+   "cause": "Shipping heavy, low-margin products cost more than they earned.",
+   "risks": {
+    "unit_economics": 95,
+    "direct_competition": 70,
+    "copyability": 70,
+    "distribution": 65
+   }
+  },
+  {
+   "id": "segway",
+   "name": "Segway",
+   "year": 2001,
+   "outcome": "FAILURE",
+   "summary": "Self-balancing personal vehicle pitched as a transport revolution.",
+   "cause": "High price, unclear need and restrictions on where it could be used.",
+   "risks": {
+    "buyer_payer": 85,
+    "problem_reality": 80,
+    "regulatory": 75,
+    "unit_economics": 70
+   }
+  },
+  {
+   "id": "glass",
+   "name": "Google Glass (consumer)",
+   "year": 2013,
+   "outcome": "FAILURE",
+   "summary": "Smart glasses with a camera for consumers.",
+   "cause": "Social privacy backlash, high price and unclear everyday use.",
+   "risks": {
+    "security_privacy": 90,
+    "problem_reality": 80,
+    "buyer_payer": 75,
+    "onboarding_friction": 65
+   }
+  },
+  {
+   "id": "moviepass",
+   "name": "MoviePass (flat rate)",
+   "year": 2017,
+   "outcome": "FAILURE",
+   "summary": "Unlimited cinema for a very low monthly fee.",
+   "cause": "Lost money on every active user and depended on cinemas it did not control.",
+   "risks": {
+    "unit_economics": 98,
+    "dependency_fragility": 80,
+    "defensibility": 70
+   }
+  },
+  {
+   "id": "googleplus",
+   "name": "Google+",
+   "year": 2011,
+   "outcome": "FAILURE",
+   "summary": "General social network to compete with Facebook.",
+   "cause": "The rival's network effect made switching very costly; little real use.",
+   "risks": {
+    "switching_cost": 90,
+    "direct_competition": 85,
+    "problem_reality": 70
+   }
+  },
+  {
+   "id": "zune",
+   "name": "Zune",
+   "year": 2006,
+   "outcome": "FAILURE",
+   "summary": "Music player and digital store.",
+   "cause": "Arrived late against a dominant iPod/iTunes.",
+   "risks": {
+    "direct_competition": 90,
+    "switching_cost": 80,
+    "timing": 75
+   }
+  },
+  {
+   "id": "humanepin",
+   "name": "Humane AI Pin",
+   "year": 2024,
+   "outcome": "FAILURE",
+   "summary": "Screenless AI device worn on clothing.",
+   "cause": "The phone already did the same thing better; immature product and very negative reviews.",
+   "risks": {
+    "substitutes": 90,
+    "technology_readiness": 80,
+    "unit_economics": 70,
+    "buyer_payer": 70
+   }
+  },
+  {
+   "id": "dropbox",
+   "name": "Dropbox",
+   "year": 2007,
+   "outcome": "SUCCESS",
+   "summary": "Cloud file sync.",
+   "cause": "FTP, rsync and competitors already existed.",
+   "risks": {
+    "prior_art": 75,
+    "platform_absorption": 75,
+    "direct_competition": 70,
+    "substitutes": 60,
+    "technical_feasibility": 20,
+    "problem_reality": 15
+   },
+   "lever": "Radical simplicity versus existing tools and referral-driven growth."
+  },
+  {
+   "id": "airbnb",
+   "name": "Airbnb",
+   "year": 2008,
+   "outcome": "SUCCESS",
+   "summary": "Lodging in private homes.",
+   "cause": "People believed nobody would sleep in a stranger's home.",
+   "risks": {
+    "onboarding_friction": 80,
+    "security_privacy": 75,
+    "regulatory": 75,
+    "unit_economics": 35,
+    "problem_reality": 30
+   },
+   "lever": "Building trust: two-way reviews, verified profiles and host guarantees."
+  },
+  {
+   "id": "uber",
+   "name": "Uber",
+   "year": 2009,
+   "outcome": "SUCCESS",
+   "summary": "Peer-to-peer rides ordered from a phone.",
+   "cause": "Head-on clash with taxi regulation in many cities.",
+   "risks": {
+    "regulatory": 92,
+    "unit_economics": 65,
+    "direct_competition": 60,
+    "problem_reality": 20
+   },
+   "lever": "Massive user demand and fast expansion while regulation adapted (with major legal conflicts)."
+  },
+  {
+   "id": "spacex",
+   "name": "SpaceX",
+   "year": 2002,
+   "outcome": "SUCCESS",
+   "summary": "Low-cost, later reusable rockets.",
+   "cause": "Extreme technical risk; the first launches failed.",
+   "risks": {
+    "technical_feasibility": 90,
+    "technology_readiness": 85,
+    "unit_economics": 75,
+    "evidence_quality": 30
+   },
+   "lever": "Iterative public testing, evidence accumulated flight by flight, and anchor contracts."
+  },
+  {
+   "id": "slack",
+   "name": "Slack",
+   "year": 2013,
+   "outcome": "SUCCESS",
+   "summary": "Team messaging.",
+   "cause": "Competed with email and HipChat.",
+   "risks": {
+    "direct_competition": 70,
+    "switching_cost": 65,
+    "substitutes": 60,
+    "problem_reality": 25
+   },
+   "lever": "Viral team-by-team adoption and integrations."
+  },
+  {
+   "id": "netflix",
+   "name": "Netflix (streaming)",
+   "year": 2007,
+   "outcome": "SUCCESS",
+   "summary": "Subscription internet video.",
+   "cause": "Depended on third-party content licenses and immature broadband.",
+   "risks": {
+    "dependency_fragility": 75,
+    "technology_readiness": 70,
+    "direct_competition": 60
+   },
+   "lever": "Existing DVD subscriber base and gradual transition."
+  },
+  {
+   "id": "zoom",
+   "name": "Zoom",
+   "year": 2013,
+   "outcome": "SUCCESS",
+   "summary": "Video calls.",
+   "cause": "Market dominated by Skype and WebEx.",
+   "risks": {
+    "direct_competition": 85,
+    "substitutes": 70,
+    "platform_absorption": 70,
+    "problem_reality": 30
+   },
+   "lever": "Superior reliability and frictionless join-by-link."
+  },
+  {
+   "id": "instagram",
+   "name": "Instagram",
+   "year": 2010,
+   "outcome": "SUCCESS",
+   "summary": "Mobile photos with filters and a social network.",
+   "cause": "Easy to copy, many competitors.",
+   "risks": {
+    "copyability": 80,
+    "direct_competition": 70,
+    "defensibility": 75
+   },
+   "lever": "Speed, simplicity and an early network effect."
+  },
+  {
+   "id": "tesla",
+   "name": "Tesla",
+   "year": 2003,
+   "outcome": "SUCCESS",
+   "summary": "Electric cars.",
+   "cause": "Very hard battery economics and technology.",
+   "risks": {
+    "unit_economics": 85,
+    "technical_feasibility": 75,
+    "technology_readiness": 75,
+    "operational_burden": 75
+   },
+   "lever": "Start with an expensive segment (Roadster) and move down-market later."
+  }
+ ]
+}

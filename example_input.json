@@ -1,0 +1,5 @@
+{"idea": "AI glasses that translate conversations in real time",
+ "scores": {"substitutes": 90, "technology_readiness": 75, "security_privacy": 80, "buyer_payer": 70},
+ "evidence": {"substitutes": ["Phone translation apps already do this for free"],
+              "security_privacy": ["Recording third parties raises consent issues"]},
+ "fatal_assumptions": 0}

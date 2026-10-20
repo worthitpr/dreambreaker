@@ -1,0 +1,37 @@
+{
+ "titulo": "DREAMBREAKER - prueba prospectiva pre-registrada",
+ "creado": "2026-10-20T03:40+01:00",
+ "regla": "Puntuaciones basadas SOLO en conocimiento previo a junio 2026 (corte del modelo). Ninguna busqueda de desenlace antes de sellar este archivo. Dimensiones no puntuadas = 40.",
+ "mapa_desenlace": {
+   "PROBLEMAS": "cierre, producto descontinuado, pivote, despidos o recortes grandes, envios retrasados/cancelados, informes creibles de ventas o uso muy debiles, venta de emergencia",
+   "SANO": "sigue vendiendo/enviando o creciendo, nueva financiacion, expansion, informes creibles de buen uso o ventas",
+   "SIN_RESOLVER": "informacion insuficiente para clasificar"
+ },
+ "prediccion": "veredicto KILLED*/CRITICAL_REPAIR/HOLD* = predice PROBLEMAS; SURVIVES* = predice SANO",
+ "casos": [
+  {"id":"friend","idea":"Friend: colgante de IA 'amigo' que escucha siempre (129 USD, 2025)",
+   "scores":{"security_privacy":90,"buyer_payer":75,"substitutes":80,"problem_reality":70,"technology_readiness":65,"market_proof":75,"unit_economics":70,"distribution":50},
+   "evidence":{"security_privacy":["escucha permanente; rechazo publico y vandalismo de su campana en el metro de NY (2025)"],"substitutes":["chatbots en el telefono gratis"]}},
+  {"id":"1x_neo","idea":"1X NEO: robot humanoide domestico (aprox. 20.000 USD o suscripcion, entregas previstas 2026)",
+   "scores":{"technology_readiness":90,"security_privacy":80,"unit_economics":80,"buyer_payer":75,"technical_feasibility":75,"operational_burden":75,"market_proof":70},
+   "evidence":{"technology_readiness":["la propia empresa indicaba teleoperacion humana remota para muchas tareas"],"security_privacy":["operadores remotos viendo el hogar"],"unit_economics":["hardware humanoide caro"]}},
+  {"id":"meta_display","idea":"Meta Ray-Ban Display: gafas con pantalla y pulsera neural (799 USD, sept 2025)",
+   "scores":{"substitutes":60,"security_privacy":70,"buyer_payer":65,"technology_readiness":60,"distribution":30,"market_proof":50,"unit_economics":60,"timing":40},
+   "evidence":{}},
+  {"id":"sora_app","idea":"Sora app de OpenAI: red social de video corto generado por IA (2025)",
+   "scores":{"direct_competition":85,"unit_economics":80,"regulatory":75,"security_privacy":70,"problem_reality":60,"switching_cost":70,"distribution":30,"market_proof":50},
+   "evidence":{"direct_competition":["TikTok, Reels, Shorts y Meta Vibes"],"unit_economics":["coste de computo de generar video"]}},
+  {"id":"cluely","idea":"Cluely: asistente de IA invisible para 'hacer trampa en todo' (entrevistas, llamadas) (2025)",
+   "scores":{"copyability":85,"ai_commoditization":85,"defensibility":85,"direct_competition":75,"security_privacy":75,"platform_absorption":75,"regulatory":70,"problem_reality":50},
+   "evidence":{"copyability":["superposicion sobre modelos de terceros, facil de replicar"],"ai_commoditization":["funcion replicable con cualquier LLM"],"defensibility":["sin datos ni tecnologia propia evidente"]}},
+  {"id":"comet","idea":"Perplexity Comet: navegador con agente de IA (gratuito desde oct 2025)",
+   "scores":{"platform_absorption":90,"direct_competition":85,"switching_cost":80,"security_privacy":75,"unit_economics":65},
+   "evidence":{"platform_absorption":["Google integrando Gemini en Chrome; OpenAI lanzo su navegador Atlas"],"direct_competition":["Chrome, Edge Copilot, Atlas"],"switching_cost":["cuota dominante de Chrome"]}},
+  {"id":"daylight","idea":"Daylight DC-1: tableta con pantalla tipo papel de alto refresco (729 USD)",
+   "scores":{"substitutes":70,"buyer_payer":65,"unit_economics":70,"distribution":75,"market_proof":60,"operational_burden":70,"technology_readiness":40},
+   "evidence":{}},
+  {"id":"plaud","idea":"Plaud Note/NotePin: grabadora de voz con resumen por IA",
+   "scores":{"substitutes":70,"security_privacy":65,"market_proof":30,"unit_economics":40,"ai_commoditization":70,"platform_absorption":70},
+   "evidence":{}}
+ ]
+}
