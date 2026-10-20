@@ -1,5 +1,5 @@
 # Copyright 2026 Kritsia Quiñones (XXSELENEPRXX). Licensed under the Apache License, Version 2.0.
-"""DREAMBREAKER tests. Run: python3 scripts/test_dreambreaker.py"""
+"""DREAMBREAKER tests. Run: python3 test_dreambreaker.py"""
 import os, sys, unittest
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from dreambreaker_core import Dreambreaker as Core, KILL_DIMENSIONS as K
